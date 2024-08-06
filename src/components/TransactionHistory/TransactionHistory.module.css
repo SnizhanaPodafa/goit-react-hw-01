@@ -1,0 +1,29 @@
+.transactionItem:nth-child(even) {
+  background-color: darkgrey;
+}
+
+.transactionItem:nth-child(odd) {
+  background-color: white;
+}
+
+.transactionHistory {
+  width: 900px;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.transactionHistory th,
+.transactionHistory td {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: black;
+}
+
+.transactionHistory th {
+  background-color: black;
+  color: white;
+  font-weight: 700;
+}
